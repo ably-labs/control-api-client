@@ -1,0 +1,25 @@
+PATH
+  remote: ../../ruby
+  specs:
+    swagger_client (1.0.0)
+      json (~> 2.1, >= 2.1.0)
+      typhoeus (~> 1.0, >= 1.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ethon (0.15.0)
+      ffi (>= 1.15.0)
+    ffi (1.15.4)
+    json (2.6.1)
+    typhoeus (1.4.0)
+      ethon (>= 0.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  swagger_client!
+
+BUNDLED WITH
+   2.1.4

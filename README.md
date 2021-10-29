@@ -4,6 +4,14 @@ _[Ably](https://ably.com) is the platform that powers synchronized digital exper
 
 This repository contains auto-generated clients for the [Ably Control API](https://ably.com/documentation/control-api).
 
+## Examples
+
+Examples of using the auto-generated clients exist in the `examples` directory. See the individual
+READMEs for further information about each example:
+
+- [Ruby Example](/examples/ruby/README.md)
+- [Go Example](/examples/go/README.md)
+
 ## Generate
 
 The code in the `generated` directory is generated using [Swagger Codegen](https://github.com/swagger-api/swagger-codegen).
