@@ -20,3 +20,16 @@ docker run \
   --lang       ruby \
   --output     /out/ruby
 ```
+
+- Go
+
+```
+docker run \
+  --rm \
+  --volume "$(pwd)/generated:/out" \
+  swaggerapi/swagger-codegen-cli-v3:3.0.29 \
+  generate \
+  --input-spec "https://raw.githubusercontent.com/ably/open-specs/main/definitions/control-v1.yaml" \
+  --lang       go \
+  --output     /out/go
+```
